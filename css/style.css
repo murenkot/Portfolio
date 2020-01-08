@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Questrial&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Work+Sans:700&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Heebo:400&display=swap');
-
+@import url('https://fonts.googleapis.com/css?family=Karla:400,700&display=swap');
 html {
 
     padding: 0px;
@@ -32,6 +32,8 @@ nav {
     color: #414141;
     /* font-family: 'Montserrat', sans-serif; */
     font-family: 'Questrial', sans-serif;
+    text-shadow: 1px 1px 1px #fff;
+
 }
 
 
@@ -52,6 +54,7 @@ nav {
     position: absolute; */
     height: 100vh;
     width: 100%;
+    margin-bottom: 100px;
 }
 
 .main-photo-container {
@@ -66,25 +69,45 @@ nav {
 }
 
 .main-photo-container img {
-width: 100%;
-height: auto;
+/* width: 100%;
+height: auto; */
+height: 100vh;
+width: auto;
 }
 
-.greetings {
+/* .greetings {
     display: inline-block;
     margin-top: 24%;
     margin-left: 10%;
     position: inherit;
+} */
+
+.greetings {
+    display: inline-block;
+    margin-top: 24%;
+    margin-left: 55%;
+    position: absolute;
+    /* background-color: whitesmoke; */
+    z-index: 10;
+    padding: 30px;
+    
 }
+
+
+
 
 .greetings *{
     color: #414141;
-    font-family: 'Heebo', sans-serif;
+    /* font-family: 'Heebo', sans-serif; */
+    font-family: 'Karla', sans-serif;
+    text-shadow: 1px 1px 1px #fff;
+
+
 }
 
 .greetings h1{
     font-size: 55px;
-    font-weight: 700;
+    /* font-weight: 700; */
 }
 
 .greetings h3{
@@ -98,12 +121,14 @@ height: auto;
 .page {
     padding: 10px 0px 0px 0px;
     min-height: 100vh;
+    margin-bottom: 80px;
 }
 .page h1 {
     text-align: center;
     margin: 30px 0 15px 0;
-    font-size: 30px;
-    font-family: 'Heebo', sans-serif;
+    font-size: 20px;
+    font-family: 'Karla', sans-serif;
+    font-weight: 600;
 }
 
 .page .fa-angle-double-down {
@@ -121,9 +146,9 @@ height: auto;
 .about .flex-row-container {
     display: flex;
     flex-wrap: wrap;
-    padding: 0px 5%;
+    /* padding: 0px 5%; */
     width: 100%;
-    position: absolute;
+    /* position: absolute; */
     height: 85vh;
 }
 
@@ -131,9 +156,10 @@ height: auto;
     display: flex;
     flex-wrap: wrap;
     padding: 0px 5%;
+    margin-top: 30px;
     width: 100%;
-    position: absolute;
-    height: 85vh;
+    /* position: absolute; */
+    height: 90vh;
 }
 
 
@@ -146,10 +172,60 @@ height: auto;
     overflow: hidden;
 }
 
+/* .avatar-container {
+    max-width: 300px;
+    max-height: 300px;
+    overflow: hidden;
+    text-align: center;
+    display: inline-block;
+    margin: 20px 0px 40px 0px;
+  }
+    
+  #avatar {
+    height: auto;
+    max-width: 100%;
+    position: relative;
+    text-align: center;
+    object-fit: cover;
+    align-content: center;
+  } */
+
+  #biografy-right-column {
+    margin-left: 7%;
+    margin-top: 4%;
+  }
+
+  .avatar-container {
+    width: 250px;
+    height: 250px;
+    overflow: hidden;
+    text-align: center;
+    display: inline-block;
+    border-radius: 50%;
+    margin-left: 7%;
+    margin-top: 5%;
+  }
+  
+  .avatar-container img {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    text-align: center;
+    object-fit: cover;
+    align-content: center;
+    margin: 0;
+  }
+
+#biografy {
+    display: inline-block;
+    width: 60vw;
+    padding-left: 70px;
+}
 
 .center-container {
     text-align: center;
 }
+
 
 .column .block{
     position: absolute;
@@ -168,14 +244,13 @@ height: auto;
     padding: 5px 15px;
     margin: 5px auto;
     margin-top: 50px;
+    margin-left: 45px;
 }
 
 p {
     white-space: pre-line;
-    font-size: 16px;
-    font-family: 'Heebo', sans-serif;
-    
-
+    font-size: 15px;
+    font-family: 'Karla', sans-serif;
 }
 
 .logo {
@@ -359,11 +434,6 @@ p {
      font-size: 14px;
  }
 
- /* .dates {
-    display: inline-block;
-    width: 25%;
-    padding: 0.5% 1% 0.5% 27%;
-} */
 
 .dates {
     display: inline-block;
@@ -373,8 +443,9 @@ p {
 }
 
 .dates p {
-    font-family: 'Heebo', sans-serif;
-    font-size: 16px;
+    /* font-family: 'Heebo', sans-serif; */
+    font-family: 'Karla', sans-serif;
+    font-size: 15px;
     font-weight: 900;
     margin-top: 10px;
 }
@@ -387,17 +458,25 @@ p {
 }
 
 .description li {
-    font-size: 16px;
+    font-size: 15px;
+    font-family: 'Karla', sans-serif;
+
 }
 
-h4 {
-    font-family: 'Heebo', sans-serif;
+/* h4 {
+    font-family: 'Karla', sans-serif;
     font-size: 18px;
+
+} */
+.description h4 {
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
 
 }
 
 .description h5 {
-    font-family: 'Heebo', sans-serif;
+    font-family: 'Karla', sans-serif;
     font-size: 16px;
     font: italic;
 
@@ -494,7 +573,7 @@ h4 {
 
 .tools-description {
     padding-left: 200px;
-    font-family: 'Heebo', sans-serif;
+    font-family: 'Karla', sans-serif;
     font-size: 16px;
 
 
