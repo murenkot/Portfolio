@@ -29,15 +29,21 @@ nav {
 .flex-nav-container a {
     margin: 0 23px 1px 0px;
     text-decoration: none;
-    color: #e3e3e3;
+    color: #414141;
     /* font-family: 'Montserrat', sans-serif; */
     font-family: 'Questrial', sans-serif;
 }
 
+
+
 .flex-nav-container a:hover {
     /* padding-bottom: 10px; */
-    border-bottom: 1px solid #e3e3e3;
+    border-bottom: 1px solid #414141;;
     margin-bottom: 0px;
+    text-decoration: none;
+    color: #414141;
+
+
 }
 
 .hero {
@@ -72,7 +78,7 @@ height: auto;
 }
 
 .greetings *{
-    color: whitesmoke;
+    color: #414141;
     font-family: 'Heebo', sans-serif;
 }
 
@@ -109,6 +115,7 @@ height: auto;
 
 .about {
     padding: 0px;
+    padding-top: 15px;
 }
 
 .about .flex-row-container {
@@ -165,7 +172,7 @@ height: auto;
 
 p {
     white-space: pre-line;
-    font-size: 17px;
+    font-size: 16px;
     font-family: 'Heebo', sans-serif;
     
 
@@ -449,7 +456,7 @@ h4 {
 }
 
 .portfolio {
-    height: 190vh;
+    /* height: 190vh; */
 
 }
 
