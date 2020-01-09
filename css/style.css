@@ -101,7 +101,7 @@ width: auto;
 }
 
 .page {
-    padding: 10px 0px 0px 0px;
+    padding: 60px 0px 0px 0px;
     min-height: 100vh;
     margin-bottom: 80px;
 }
@@ -120,8 +120,8 @@ width: auto;
 }
 
 .about {
-    padding: 0px;
-    padding-top: 15px;
+    /* padding: 0px; */
+    /* padding-top: 15px; */
 }
 
 .about .flex-row-container {
