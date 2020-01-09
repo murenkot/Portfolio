@@ -33,10 +33,7 @@ nav {
     /* font-family: 'Montserrat', sans-serif; */
     font-family: 'Questrial', sans-serif;
     text-shadow: 1px 1px 1px #fff;
-
 }
-
-
 
 .flex-nav-container a:hover {
     /* padding-bottom: 10px; */
@@ -44,8 +41,6 @@ nav {
     margin-bottom: 0px;
     text-decoration: none;
     color: #414141;
-
-
 }
 
 .hero {
@@ -75,13 +70,6 @@ height: 100vh;
 width: auto;
 }
 
-/* .greetings {
-    display: inline-block;
-    margin-top: 24%;
-    margin-left: 10%;
-    position: inherit;
-} */
-
 .greetings {
     display: inline-block;
     margin-top: 24%;
@@ -90,19 +78,13 @@ width: auto;
     /* background-color: whitesmoke; */
     z-index: 10;
     padding: 30px;
-    
 }
-
-
-
 
 .greetings *{
     color: #414141;
     /* font-family: 'Heebo', sans-serif; */
     font-family: 'Karla', sans-serif;
     text-shadow: 1px 1px 1px #fff;
-
-
 }
 
 .greetings h1{
@@ -135,7 +117,6 @@ width: auto;
     margin: auto;
     margin-left: 50%;
     text-align: center;
-
 }
 
 .about {
@@ -149,17 +130,17 @@ width: auto;
     /* padding: 0px 5%; */
     width: 100%;
     /* position: absolute; */
-    height: 85vh;
+    /* height: 85vh; */
 }
 
 .flex-row-container {
     display: flex;
     flex-wrap: wrap;
     padding: 0px 5%;
-    margin-top: 30px;
+    /* margin-top: 30px; */
     width: 100%;
     /* position: absolute; */
-    height: 90vh;
+    /* height: 90vh; */
 }
 
 
@@ -171,24 +152,6 @@ width: auto;
     position: relative;
     overflow: hidden;
 }
-
-/* .avatar-container {
-    max-width: 300px;
-    max-height: 300px;
-    overflow: hidden;
-    text-align: center;
-    display: inline-block;
-    margin: 20px 0px 40px 0px;
-  }
-    
-  #avatar {
-    height: auto;
-    max-width: 100%;
-    position: relative;
-    text-align: center;
-    object-fit: cover;
-    align-content: center;
-  } */
 
   #biografy-right-column {
     margin-left: 7%;
@@ -222,17 +185,19 @@ width: auto;
     padding-left: 70px;
 }
 
+#biografy p {
+    margin-bottom: 5px;
+}
+
 .center-container {
     text-align: center;
 }
-
 
 .column .block{
     position: absolute;
     top:50%;
     left: 0;
     transform: translate(0%, -50%);
-
 }
 
 #download {
@@ -246,6 +211,19 @@ width: auto;
     margin-top: 50px;
     margin-left: 45px;
 }
+
+.tools {
+    display: inline-block;
+    width: 200px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.tools ul {
+    list-style-type: none;
+    padding-left: 10px;
+}
+
 
 p {
     white-space: pre-line;
